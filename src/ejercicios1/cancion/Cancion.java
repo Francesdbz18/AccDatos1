@@ -12,13 +12,13 @@ public class Cancion implements Serializable {
 
     public Cancion() {}
 
-    public Cancion(int año, int id, String titulo, String artista, String duracion, boolean español) {
-        this.anyo = año;
+    public Cancion(int anyo, int id, String titulo, String artista, String duracion, boolean espanyol) {
+        this.anyo = anyo;
         this.id = id;
         this.titulo = titulo;
         this.artista = artista;
         this.duracion = duracion;
-        this.espanyol = español;
+        this.espanyol = espanyol;
     }
 
     public int getId() {

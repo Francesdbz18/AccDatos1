@@ -9,9 +9,9 @@ public class Main {
         FileOutputStream fileout = new FileOutputStream(fichero);
         ObjectOutputStream dataos = new ObjectOutputStream(fileout);
         menu(dataos);
+        Cancion c;
         FileInputStream filein = new FileInputStream(fichero);
         ObjectInputStream dataIS = new ObjectInputStream(filein);
-        Cancion c;
         try {
             while (true) {
                 c = (Cancion) dataIS.readObject();
@@ -32,7 +32,9 @@ public class Main {
             sc.nextLine();
             if (escribir == 1) {
                 dataos.writeObject(construirCancion());
-            }
+            } // else if (escribir == 2) {
+//                buscarArtista();
+//            }
         }
         dataos.close();
 
