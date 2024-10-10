@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canciones>
+    <cancion>
+        <id>1</id>
+        <anyo>2013</anyo>
+        <titulo>Do I Wanna Know?</titulo>
+        <artista>Arctic Monkeys</artista>
+        <duracion>4:32</duracion>
+        <espanyol>no</espanyol>
+    </cancion>
+    <cancion>
+        <id>2</id>
+        <anyo>2019</anyo>
+        <titulo>Bubble Gum</titulo>
+        <artista>Clairo</artista>
+        <duracion>2:55</duracion>
+        <espanyol>no</espanyol>
+    </cancion>
+    <cancion>
+        <id>3</id>
+        <anyo>2021</anyo>
+        <titulo>Tuyo</titulo>
+        <artista>Mora</artista>
+        <duracion>4:29</duracion>
+        <espanyol>si</espanyol>
+    </cancion>
+    <cancion>
+        <id>4</id>
+        <anyo>2007</anyo>
+        <titulo>Cumbiera Intelectual</titulo>
+        <artista>Kevin Johansen</artista>
+        <duracion>4:10</duracion>
+        <espanyol>si</espanyol>
+    </cancion>
+    <cancion>
+        <id>5</id>
+        <anyo>1996</anyo>
+        <titulo>Lovefool</titulo>
+        <artista>The Cardigans</artista>
+        <duracion>3:13</duracion>
+        <espanyol>no</espanyol>
+    </cancion>
+    <cancion>
+        <id>6</id>
+        <anyo>2023</anyo>
+        <titulo>Hora Loca</titulo>
+        <artista>Rawayana</artista>
+        <duracion>3:11</duracion>
+        <espanyol>si</espanyol>
+    </cancion>
+    <cancion>
+        <id>7</id>
+        <anyo>2022</anyo>
+        <titulo>a-okay</titulo>
+        <artista>blackwave.</artista>
+        <duracion>3:39</duracion>
+        <espanyol>no</espanyol>
+    </cancion>
+</Canciones>
