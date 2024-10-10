@@ -18,11 +18,14 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 
 public class CrearCancionXml {
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         File fichero = new File("AleatorioCancion.dat");
         RandomAccessFile file = new RandomAccessFile (fichero, "r");
         int id, anyo, posicion=0;
-        char titulo[] = new char [20], artista[] = new char [20], duracion[] = new char [20], aux;
+        char[] titulo = new char [20];
+        char[] artista = new char [20];
+        char[] duracion = new char [20];
+        char aux;
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
