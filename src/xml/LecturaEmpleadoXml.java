@@ -10,7 +10,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 
 public class LecturaEmpleadoXml {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -25,4 +25,6 @@ public class LecturaEmpleadoXml {
                     Element elemento = (Element) emple;
                     System.out.printf("ID = %s %n", elemento.getElementsByTagName("id").item(0).getTextContent());
                     System.out.printf("Apellido = %s %n", elemento.getElementsByTagName("dep"). item(0).getTextContent());
-                    System.out.printf("");.getElementsByTagName("apellido"). item(0).getTextContent()); System.out.printf(" Departamento is in", System.out.printf(" Salarios in", elemento.getElementsByTagName("salario item(0).getTextContent()); } } catch (Exception e) (e.printStackTrace();) }//fin de main //fin de la clase
+                    //System.out.printf("");.getElementsByTagName("apellido"). item(0).getTextContent()); System.out.printf(" Departamento is in", System.out.printf(" Salarios in", elemento.getElementsByTagName("salario item(0).getTextContent()); } } catch (Exception e) (e.printStackTrace();) }//fin de main //fin de la clase
+
+     */}
