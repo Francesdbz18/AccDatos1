@@ -9,7 +9,7 @@ import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 import jakarta.xml.bind.Unmarshaller;
 
-public class Ejemplo1_JAXB {
+public class  Ejemplo1_JAXB {
     private static final String MIARCHIVO_XML = "./libreria.xml";
 
     public static void main(String[] args) throws JAXBException, IOException {
